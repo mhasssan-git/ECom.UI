@@ -1,0 +1,48 @@
+
+ul {
+    width: 100%;
+}
+ul,ul>li,.logo,.account,.search,.login,.signup{
+    display: inline-block;
+}
+header {
+    background: #F85606;
+    padding: 10px 20px ;
+    color: #fff;
+    
+}
+.logo>div{
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+li{
+    padding: 0px 5px ;
+}
+.logo{
+    width: 20%;
+}
+.search {
+    width: 50%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+.search input[type="text"] {
+    width: 94%;
+    border:none;
+}
+.fa-search
+{
+    color:#F85606
+}
+.account{
+    width: 25%;
+}
+.account .fa{
+    font-size: 15pt;
+}
+.cart .fa{
+    font-size: 25pt;
+}

@@ -1,0 +1,26 @@
+.product
+{
+    background-color: #fff;
+    padding: 15px;
+    margin: 0px 2px;
+}
+.product-image img {
+    height: 180px;
+    width: 200px;
+}
+.product-name label{
+    padding: 0px;
+}
+.product-name{
+    font-size: 14px;
+    color: #212121;
+    height: 36px;
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+    margin: 2px 0px 2px 0px;
+}
+.product-price{
+    line-height: 22px;
+    height: 22px;
+    font-size: 18px;
+    color: #f85606;
+}

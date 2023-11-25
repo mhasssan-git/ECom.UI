@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'css-star-rating/scss/star-rating';
+@import 'bootstrap/scss/bootstrap';
+
+$fa-font-path: 'assets/fontawesome/webfonts';
+@import 'assets/fontawesome/css/fontawesome-all.min.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+background-color: #F5F5F5;}

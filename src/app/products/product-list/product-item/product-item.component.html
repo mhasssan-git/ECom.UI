@@ -1,0 +1,19 @@
+<div class="col-xs-2 product">
+  <div class="product-image row">
+    <img [src]="item?.image" />
+  </div>
+  <div class="product-name row">
+    <label>{{item?.name}}</label>
+  </div>
+  <div class="product-price row">
+    <label>{{item?.discountPrice??0|money}}</label>
+  </div>
+  <div class="product-price-discount row" *ngIf="((item?.discount)??0)>0">
+    <app-discountprice [item]="item"/>
+  </div>
+  <div class="product-rating row">
+    <star-rating [hoverEnabled]="true" [showHalfStars]="true"
+    [rating]="3">
+  </star-rating>
+</div>
+</div>
